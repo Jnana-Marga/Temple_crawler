@@ -1,8 +1,3 @@
-
-#Required packages to install
-#pip install Flask transformers torch requests beautifulsoup4
-
-
 from flask import Flask, request, jsonify
 from transformers import BertTokenizer, BertModel
 import torch
